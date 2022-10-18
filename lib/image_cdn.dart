@@ -4,6 +4,7 @@ enum ImageCDNFormat { jpg, png, webp }
 
 enum ImageCDNFit { cover, contain, fill, inside, outside }
 
+///URL Manipulator for Image CDN
 class ImageCDN {
   ///[url]
   ///A URL-Encoded link to the image you wish to cache and apply transformations to.

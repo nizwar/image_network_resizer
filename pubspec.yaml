@@ -1,7 +1,7 @@
 name: progressive_cached_network_image_cdn
 description: Load images from network and cache them with cached_network_image
   and resize it with ImageCDN
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/nizwar/image_network_resizer.git
 
 environment:
@@ -17,5 +17,4 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-    
-flutter:
+     

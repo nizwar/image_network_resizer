@@ -1,5 +1,7 @@
 # Progressive Cached Network Image CDN
-Load image from network and cache them with cached_network_image and resize it with ImageCDN (Server side).
+Load image with cached_network_image and resize it with ImageCDN (Server side). 
+
+You also can use `ProgressiveCachedNetworkImage` to load progressive images by loading small size image and show it as placeholder before origin image got loaded.
 
 This plugin was extended from [cached_network_image](https://pub.dev/packages/cached_network_image) plugin
 
@@ -18,6 +20,7 @@ ImageCDN.convertUrl("IMAGE_URL", {
 ## CachedNetworkImageCDN
 This is extended with `CachedNetworkImage`, means you can use all params that related with the widget
 ```dart
+///You can use this params for resize the image with ImageCDN
 CachedNetworkImageCDN(
     "IMAGE_URL",
     this.resizerFormat = ImageCDNFormat.webp,
@@ -30,6 +33,7 @@ CachedNetworkImageCDN(
 ## ProgressiveCachedNetworkImage
 This is extended with `CachedNetworkImageCDN`, means you can use all params that related with the widget
 ```dart
+///You can use this params for customize your Progressive Placeholder that provided by ImageCDN
 ProgressiveCachedNetworkImage(
     "IMAGE_URL", 
     this.progressivePlaceholder,

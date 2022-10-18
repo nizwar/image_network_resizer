@@ -71,6 +71,7 @@ class CachedNetworkImageCDN extends CachedNetworkImage {
         ));
 }
 
+///Show progressive image while loading with [CachedNetworkImageCDN]
 class ProgressiveCachedNetworkImage extends CachedNetworkImageCDN {
   final String url;
 
