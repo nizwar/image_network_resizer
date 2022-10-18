@@ -1,0 +1,24 @@
+name: progressive_cached_network_image_cdn_example
+description: Demonstrates how to use the progressive_cached_network_image_cdn plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.2 <3.0.0' 
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: any
+
+  progressive_cached_network_image_cdn: 
+    path: ../  
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+ 
+flutter: 
+  uses-material-design: true 
